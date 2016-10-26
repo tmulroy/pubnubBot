@@ -21,6 +21,8 @@ function publishSampleMessage() {
   });
 }
 
-pubnub.subscribe({
-  channels: [process.env.CHANNEL],
-});
+// pubnub.subscribe({
+//   channels: [process.env.CHANNEL],
+// });
+
+publishSampleMessage();
