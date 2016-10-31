@@ -18,6 +18,9 @@
   "homepage": "https://github.com/tmulroy/pubnubBot#readme",
   "dependencies": {
     "dotenv": "^2.0.0",
-    "pubnub": "^4.1.1"
+    "express": "^4.14.0",
+    "pubnub": "^4.1.1",
+    "raspi-io": "^6.1.1",
+    "rpi-gpio": "^0.7.0"
   }
 }
