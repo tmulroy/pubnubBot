@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Robotic Arm</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+  </head>
+  <body>
+    <div id="bionic-arm">
+      <h2>Stick Figure Robot</h2>
+      <img id="hand" src="assets/hand.png" />
+      <img id="top-gear" src="assets/gear.png" />
+        <button id="top-gear-button-up" onclick="upMovement()">⬆︎</button>
+        <button id="top-gear-button-right" onclick="rightMovement()">➡︎</button>
+        <button id="top-gear-button-down" onclick="downMovement()">⬇︎</button>
+        <button id="top-gear-button-left" onclick="leftMovement()">⬅︎</button>
+      <img id="forearm" src="assets/stick.png" />
+      <img id="middle-gear" src="assets/gear_two.png" />
+        <button id="middle-gear-button-up" onclick="upMovement()">⬆︎</button>
+        <button id="middle-gear-button-right" onclick="rightMovement()">➡︎</button>
+        <button id="middle-gear-button-down" onclick="downMovement()">⬇︎</button>
+        <button id="middle-gear-button-left" onclick="leftMovement()">⬅︎</button>
+      <img id="upper-arm" src="assets/stick_two.png" />
+      <img id="lower-gear" src="assets/gear_three.png" />
+        <button id="lower-gear-button-up" onclick="upMovement()">⬆︎</button>
+        <button id="lower-gear-button-right" onclick="rightMovement()">➡︎</button>
+        <button id="lower-gear-button-down" onclick="downMovement()">⬇︎</button>
+        <button id="lower-gear-button-left" onclick="leftMovement()">⬅︎</button>
+    </div>
+    <div id="faux-terminal">
+      <p>stick-figure-macbook-air: start node.js</p>
+
+    </div>
+    <script src="js/terminal.js"></script>
+  </body>
+</html>

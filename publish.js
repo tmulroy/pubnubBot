@@ -1,6 +1,9 @@
 const PubNub = require('pubnub');
 require('dotenv').config();
 
+const command = {
+
+};
 const pubnub = new PubNub({
   subscribeKey: process.env.SUBSCRIBE_KEY,
   publishKey: process.env.PUBLISH_KEY,
@@ -9,7 +12,9 @@ const pubnub = new PubNub({
 
 function publishSampleMessage() {
   pubnub.publish({
-    message: { command: 'hello pubnub!' },
+    message: { start: true,
+      joint: "elbow"
+    },
     channel: process.env.CHANNEL,
   },
   (status,response) => {

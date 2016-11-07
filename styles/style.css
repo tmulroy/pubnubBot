@@ -1,0 +1,178 @@
+body {
+  background-color: rgb(107,107,107);
+  margin: 0 auto;
+}
+
+button {
+  background: none;
+  border: none;
+
+}
+
+#bionic-arm {
+  background-color: white;
+  width: 100%;
+  height: 31rem;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  text-transform: capitalize;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 5rem;
+  margin-bottom: -5rem;
+}
+
+#hand {
+  margin-left: 19rem;
+  margin-top: 7rem;
+  width: 124px;
+  transform: rotate(-17deg);
+  -ms-transform: rotate(-17deg);
+  -webkit-transform: rotate(-17deg);
+  position: absolute;
+}
+
+/*** TOP GEAR ***/
+
+#top-gear {
+  width: 65px;
+  margin-left: 25rem;
+  margin-top: 13.5rem;
+  z-index: 10;
+  position: absolute;
+}
+
+#top-gear-button-up {
+  position: absolute;
+  margin-left: 26rem;
+  margin-top: 12rem;
+}
+
+#top-gear-button-right {
+  position: absolute;
+  margin-left: 29rem;
+  margin-top: 14.5rem;
+  font-size: 1.2rem;
+}
+
+#top-gear-button-down {
+  position: absolute;
+  margin-left: 26rem;
+  margin-top: 18rem;
+}
+
+#top-gear-button-left {
+  position: absolute;
+  margin-left: 23rem;
+  margin-top: 14.7rem;
+}
+
+#forearm {
+  margin-left: 28rem;
+  margin-top: 19rem;
+  width: 175px;
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg); /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+  position: absolute;
+}
+
+/*** MIDDLE GEAR ***/
+#middle-gear {
+  width: 74px;
+  margin-left: 39rem;
+  margin-top: 21rem;
+  z-index: 10;
+  position: absolute;
+}
+
+#middle-gear-button-up {
+  position: absolute;
+  margin-left: 40.5rem;
+  margin-top: 19.5rem;
+}
+
+#middle-gear-button-right {
+  position: absolute;
+  margin-left: 43.5rem;
+  margin-top: 22.5rem;
+  font-size: 1.2rem;
+}
+
+#middle-gear-button-down {
+  position: absolute;
+  margin-left: 40.5rem;
+  margin-top: 26rem;
+}
+
+#middle-gear-button-left {
+  position: absolute;
+  margin-left: 37.6rem;
+  margin-top: 22.5rem;
+}
+
+#upper-arm {
+  margin-left: 45rem;
+  margin-top: 22rem;
+  width: 280px;
+  display: inline;
+  position: absolute;
+}
+
+/*** LOWER GEAR ***/
+
+#lower-gear {
+  width: 90px;
+  margin-left: 64rem;
+  margin-top: 22rem;
+  z-index: 10;
+  position: absolute;
+}
+
+#lower-gear-button-up {
+  position: absolute;
+  margin-left: 66rem;
+  margin-top: 20.5rem;
+}
+
+#lower-gear-button-right {
+  position: absolute;
+  margin-left: 69.5rem;
+  margin-top: 24.3rem;
+  font-size: 1.2rem;
+}
+
+#lower-gear-button-down {
+  position: absolute;
+  margin-left: 66rem;
+  margin-top: 28rem;
+}
+
+#lower-gear-button-left {
+  position: absolute;
+  margin-left: 62.3rem;
+  margin-top: 24.5rem;
+}
+
+/*** FAUX-TERMINAL ***/
+
+#faux-terminal {
+  background-color: rgb(42,38,66);
+  color: white;
+  width: 100%;
+  height: 18rem;
+  border-top: 25px solid rgb(140,140,140);
+  letter-spacing: 1px;
+  font-weight: lighter;
+  margin: 0;
+  overflow-y: auto;
+  line-height: .35rem;
+}
+
+
+p {
+  margin-left: 4px;
+  text-transform: lowercase;
+}
